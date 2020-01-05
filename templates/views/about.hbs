@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Weather App | About</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-       <!--===============================================================================================-->
-    <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Weather App | About</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="images/weather-logo.jpg" />
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <!--===============================================================================================-->
@@ -31,15 +31,18 @@
 
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <!--===============================================================================================-->
-    </head>
+</head>
 
-    <body style="background-color: #fff;">
+<body style="background-color: #fff;">
 
     <div class="container-fluid px-0 " style="height: 90vh;">
         {{>header}}
         <div class="login100-more d-flex align-items-center justify-content-center">
             <div>
                 <img src="/images/IMG_4488.jpg" alt="" style="width: 250px;">
+                <p>This site was created by Umeh Victor(CodeMario). it uses data from <a
+                        href="mapbox.com" style="color: teal;">mapbox.com</a> and <a href="darksky.net" style="color: teal;">darksky.net</a> to generate weather
+                    forecast for a given location</p>
             </div>
 
         </div>
@@ -48,4 +51,5 @@
     {{>footer}}
 
 </body>
+
 </html>
